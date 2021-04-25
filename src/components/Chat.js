@@ -51,15 +51,14 @@ function Chat() {
             </div>
 
             <div className='chat__messages'>
-                {roomMessages.map(message => (
+                {roomMessages.map(({ message, timestamp, user, userImage }) => (
                     <Messages
-                        message={message.message}
-                        timestamp={message.timestamp}
-                        user={message.user}
-                        userImage={message.userImage}
+                        message={message}
+                        timestamp={timestamp}
+                        user={user}
+                        userImage={userImage}
                     />
                 ))}
-
             </div>
         </div>
     )
