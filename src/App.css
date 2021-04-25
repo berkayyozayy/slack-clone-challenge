@@ -1,6 +1,8 @@
 body {
     --slack-color: #3f0f40;
     overflow: hidden;
+    --login-background: #f8f8f8;
+    --login-sign-btn:  #0a8d48;
 }
 
 .app__body {
