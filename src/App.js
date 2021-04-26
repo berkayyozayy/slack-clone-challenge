@@ -7,7 +7,6 @@ import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';
 import Login from './components/Login';
 
-// Routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { useStateValue } from './StateProvider';
 
